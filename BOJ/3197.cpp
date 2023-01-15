@@ -18,7 +18,7 @@ int main()
     int dy[4] = {0, 1, 0, -1};         // 상하좌우 확인을 위한 좌표
     queue<pair<int, int>> find, water; // 백조를 찾는 데 쓰이는 find, 얼음 녹이는 데 쓰이는 water
     // find = 현재 물이면서, 백조가 전에 탐색해 보지 않았던 곳; water = 현재 물인 곳
-    vector<pair<int, int>> swan; // 백조의 위치를 나타앨 벡터
+    vector<pair<int, int>> swan; // 백조의 위치를 나타낼 벡터
 
     cin >> R >> C;
 
